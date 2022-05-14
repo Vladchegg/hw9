@@ -22,5 +22,13 @@ public class Main {
         book1.setPublicationYear(2015);
         System.out.println("book1.publicationYear = " + book1.getPublicationYear());
 
+
+    // HOMEWORK 10
+        System.out.println("book1 = " + book1);
+        Book book3 = new Book("text", author1, 2017);
+        System.out.println(book1.equals(book3));
+        Author author3 = new Author("Dmitry", "Glukhovsky");
+        System.out.println(author1.equals(author3));
+
     }
 }
